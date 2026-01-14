@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carreiras em TI</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background-image: url("foto.avif");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        header {
+            background: linear-gradient(90deg, #0a1b3d, #051022);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, .7);
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(0, 150, 255, 0.4);
+            border-radius: 14px;
+            padding: 20px;
+            margin-bottom: 25px;
+            backdrop-filter: blur(8px);
+            animation: fadeUp .7s ease;
+        }
+
+        .card h2 {
+            color: #4fc3f7;
+            margin-top: 0;
+            text-shadow: 0 0 6px rgba(79, 195, 247, .6);
+        }
+
+        .card p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            opacity: .6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Carreiras em TI</h1>
+    </header>
+
+    <main>
+
+        <div class="card">
+            <p>A seguir estão as 20 principais carreiras na área de TI, com descrição clara, responsabilidades,
+                conhecimentos técnicos e perfil profissional.</p>
+        </div>
+
+        <div class="card">
+            <h2>1. Desenvolvedor Front-end</h2>
+            <p><strong>O que faz:</strong> Cria a interface visual de sites e sistemas.<br>
+                <strong>Conhecimentos:</strong> HTML, CSS, JavaScript, React, Angular, UX básico.<br>
+                <strong>Perfil:</strong> Criativo, atento a detalhes, foco em experiência do usuário.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>2. Desenvolvedor Back-end</h2>
+            <p><strong>O que faz:</strong> Desenvolve a lógica, APIs e regras do sistema.<br>
+                <strong>Conhecimentos:</strong> Java, Python, Node.js, C#, bancos de dados, APIs REST.<br>
+                <strong>Perfil:</strong> Lógico, analítico, foco em performance e segurança.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>3. Desenvolvedor Full Stack</h2>
+            <p><strong>O que faz:</strong> Atua no front-end e no back-end.<br>
+                <strong>Conhecimentos:</strong> Front + Back + banco de dados.<br>
+                <strong>Perfil:</strong> Versátil, autodidata, visão ampla de sistemas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>4. Desenvolvedor Mobile</h2>
+            <p><strong>O que faz:</strong> Cria aplicativos Android e iOS.<br>
+                <strong>Conhecimentos:</strong> Kotlin, Swift, Flutter, React Native.<br>
+                <strong>Perfil:</strong> Inovador, foco em usabilidade e performance.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>5. Engenheiro de Software</h2>
+            <p><strong>O que faz:</strong> Planeja, projeta e mantém sistemas complexos.<br>
+                <strong>Conhecimentos:</strong> Arquitetura, padrões de projeto, algoritmos.<br>
+                <strong>Perfil:</strong> Estratégico, organizado, pensamento sistêmico.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>6. Analista de Sistemas</h2>
+            <p><strong>O que faz:</strong> Analisa requisitos e propõe soluções tecnológicas.<br>
+                <strong>Conhecimentos:</strong> UML, levantamento de requisitos, bancos de dados.<br>
+                <strong>Perfil:</strong> Comunicativo, analítico, intermediário entre negócio e TI.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>7. Analista de Suporte (Help Desk)</h2>
+            <p><strong>O que faz:</strong> Presta suporte técnico a usuários.<br>
+                <strong>Conhecimentos:</strong> Hardware, sistemas operacionais, redes básicas.<br>
+                <strong>Perfil:</strong> Paciente, comunicativo, solucionador de problemas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>8. Administrador de Sistemas</h2>
+            <p><strong>O que faz:</strong> Gerencia servidores e sistemas operacionais.<br>
+                <strong>Conhecimentos:</strong> Linux, Windows Server, virtualização.<br>
+                <strong>Perfil:</strong> Organizado, responsável, foco em estabilidade.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>9. Analista de Redes</h2>
+            <p><strong>O que faz:</strong> Planeja e mantém redes de computadores.<br>
+                <strong>Conhecimentos:</strong> TCP/IP, switches, firewalls, protocolos.<br>
+                <strong>Perfil:</strong> Técnico, detalhista, foco em conectividade.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>10. Engenheiro de Cloud Computing</h2>
+            <p><strong>O que faz:</strong> Gerencia infraestruturas em nuvem.<br>
+                <strong>Conhecimentos:</strong> AWS, Azure, Google Cloud, Docker.<br>
+                <strong>Perfil:</strong> Atualizado, estratégico, foco em escalabilidade.
+            </p>
+        </div>
+
+    </main>
+
+    <footer>
+        © 2026 — Carreiras em TI
+    </footer>
+
+</body>
+
+</html>

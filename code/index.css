@@ -20,11 +20,13 @@ main {
 
 .main_superior {
     background-color: blue;
-    height: 480px;
+    height: 825px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-size: cover;
+    margin: 0;
 }
 
 .titulo_conteudo {
@@ -32,14 +34,20 @@ main {
 }
 
 .main_inferior {
+    margin: 10px;
     background-color: blueviolet;
     height: 1200px;
-    padding: 100px;
+    padding: 10px;
+    background-image: url(../img/codigo_background.png);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 /* Noticias */
 .noticias {
-    background-color: #222; /* cor de fundo do bloco */
+    background-color: #222;
+    /* cor de fundo do bloco */
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -74,6 +82,22 @@ main {
     background-color: azure;
     height: 225px;
     width: 90%;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.grafico_caixa p {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.grafico_caixa img {
+    max-width: 100px;
 }
 
 .progresso {
@@ -85,26 +109,54 @@ main {
     gap: 20px;
 }
 
-.texto_main_inferior {
-    background-color: cadetblue;
-    height: 250px;
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    gap: 20px;
+.progresso_caixa {
+    background-color: azure;
+    height: 225px;
+    width: 90%;
+    color: #222;
 }
 
-.atalhos_caixa {
-    background-color: crimson;
-    height: 250px;
+.texto_main_inferior {
+    background-color: cadetblue;
+    margin-top: 80px;
+    height: 100px;
     width: 100%;
     padding: 10px;
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    color: #222;
+}
+
+.texto_final {
+    background-color: crimson;
+    height: 2000px;
+    width: 1200px;
+    padding: 10px;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.final_conteudo{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.final_conteudo p{
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+    width: 990px;
+}
+
+.final_conteudo h1{
+    font-size: 40px;
 }
 
 .menu {
-    background-color: darkblue;
+    background-image: linear-gradient(to right, rgb(0, 0, 97), rgb(7, 0, 26));
     height: 2080px;
     width: 350px;
 }
@@ -133,7 +185,7 @@ main {
 }
 
 .lista_topicos {
-    background-image: linear-gradient(to right, darkviolet, blueviolet);
+    background-image: linear-gradient(to right, darkviolet, rgb(115, 0, 165));
     border-radius: 10px;
     margin: 8px;
     height: 50px;
@@ -161,5 +213,3 @@ main {
     align-items: center;
     padding-left: 60px;
 }
-
-
