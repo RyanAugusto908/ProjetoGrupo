@@ -4,89 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProjetoGrupo</title>
+    <title>ProjetoGrupo - Carreira Tech</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="index.css">
 </head>
-<link rel="stylesheet" href="index.css">
 
 <body>
-    <header class="menu">
+    <aside class="menu">
         <section class="titulo_menu">
             <section class="titulo_icon">
-                <img src="../img/codigo.png" alt="titulo_icone">
+                <img src="../img/codigo.png" alt="Ícone de código" class="logo-img">
                 <h2>Carreira Tech</h2>
             </section>
-
             <section class="subtitulo">
                 <p>Foco Direcionado</p>
             </section>
         </section>
 
         <ul class="menu_lista">
-            <li class="lista_topicos"><a href="index.html">Início</a></li>
-            <li class="lista_topicos"><a href="carreiras.html">Carreiras em TI</a></li>
-            <li class="lista_topicos"><a href="../julio/cursos.html">Cursos</a></li>
-            <li class="lista_topicos"><a href="habilidades.html">Habilidades</a></li>
-            <li class="lista_topicos"><a href="../julio/meu_perfil.html">Meu Perfil</a></li>
+            <li class="lista_topicos">
+                <a href="index.html"><i class="fas fa-home"></i> Início</a>
+            </li>
+            <li class="lista_topicos">
+                <a href="carreiras.html"><i class="fas fa-briefcase"></i> Carreiras em TI</a>
+            </li>
+            <li class="lista_topicos">
+                <a href="../julio/Roadmap.html"><i class="fas fa-road"></i> Roadmap</a>
+            </li>
+            <li class="lista_topicos">
+                <a href="../julio/cursos.html"><i class="fas fa-graduation-cap"></i> Cursos</a>
+            </li>
+            <li class="lista_topicos">
+                <a href="../julio/meu_perfil.html"><i class="fas fa-user"></i> Meu Perfil</a>
+            </li>
         </ul>
-    </header>
+    </aside>
 
-    <!-- Conteudo -->
     <main>
         <section class="main_superior">
-            <div class="titulo_conteudo">Transforme Sua Carreira em TI</div>
-            <div class="subtitulo_conteudo">Descubra rotas de aprendizado, carreiras em alta e desenvolva as habilidades
-                mais demandadas do mercado</div>
+            <div class="container-texto-hero">
+                <h1 class="titulo_conteudo">Transforme Sua Carreira em TI</h1>
+                <p class="subtitulo_conteudo">Descubra rotas de aprendizado, carreiras em alta e desenvolva as habilidades mais demandadas do mercado</p>
+                <button class="cta-button">Começar Agora</button>
+            </div>
         </section>
 
         <section class="main_inferior">
+            
             <section class="grafico_topico">
                 <div class="grafico_caixa">
-                    <p>Mercado em alta: "Setor de TI cresce 15% ao ano"</p>
-                    <img src="../img/crescimento_icon.png" alt="">
+                    <img src="../img/crescimento_icon.png" alt="Ícone de crescimento">
+                    <h3>Mercado em Alta</h3>
+                    <p>"Setor de TI cresce 15% ao ano"</p>
                 </div>
                 <div class="grafico_caixa">
-                    <p>Salários: "Média salarial de R$ 6.500 para júnior"</p>
-                    <img src="../img/dinheiro_icon.png" alt="">
+                    <img src="../img/dinheiro_icon.png" alt="Ícone de dinheiro">
+                    <h3>Salários</h3>
+                    <p>"Média salarial de R$ 6.500 para júnior"</p>
                 </div>
                 <div class="grafico_caixa">
-                    <p>Demanda: "+100 mil vagas em TI no Brasil"</p>
-                    <img src="../img/vaga_icon.png" alt="">
+                    <img src="../img/vaga_icon.png" alt="Ícone de vaga">
+                    <h3>Demanda</h3>
+                    <p>"+100 mil vagas em TI no Brasil"</p>
                 </div>
                 <div class="grafico_caixa">
-                    <p>Boas Oportunidades: "IA, Cybersecurity e Cloud"</p>
-                    <img src="../img/cybersecurity_icon.png" alt="">
+                    <img src="../img/cybersecurity_icon.png" alt="Ícone de cybersecurity">
+                    <h3>Boas Oportunidades</h3>
+                    <p>"IA, Cybersecurity e Cloud"</p>
                 </div>
             </section>
-            <section class="texto_main_inferior">
-                <p>Caminhos para a sua carreira!</p>
+
+            <section class="texto_divisor">
+                <h2>Caminhos para a sua carreira!</h2>
             </section>
 
             <section class="progresso">
-                <div class="progresso_caixa">Desenvolvimento: Front-end, Back-end, Full-stack</div>
-                <div class="progresso_caixa">Infraestrutura: Cloud, Redes, DevOps</div>
-                <div class="progresso_caixa">Dados: Análise, Ciência, Engenharia de Dados</div>
+                <div class="progresso_caixa card-area"> 
+                    <h3>Desenvolvimento</h3>
+                    <p>Front-end, Back-end, Full-stack</p>
+                </div>
+                <div class="progresso_caixa card-area">
+                    <h3>Infraestrutura</h3>
+                    <p>Cloud, Redes, DevOps</p>
+                </div>
+                <div class="progresso_caixa card-area">
+                    <h3>Dados</h3>
+                    <p>Análise, Ciência, Engenharia de Dados</p>
+                </div>
             </section>
             
             <section class="texto_final">
                 <div class="final_conteudo">
-                    <h1>Introdução ao mundo de TI</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius, quaerat rem sunt dolor earum adipisci optio culpa cumque cupiditate error laborum, tempore provident amet, corrupti natus dolorem ea distinctio praesentium in necessitatibus aperiam reiciendis minus consequuntur? Dolorum dolores, cumque esse necessitatibus aperiam, harum fugit sit vel porro, consectetur fugiat ab? Dolorum ea dicta perferendis dignissimos reprehenderit iusto dolorem libero, beatae at quia repudiandae optio tempora aliquam quibusdam odio ut maxime voluptas voluptatibus culpa eveniet laudantium cum eius iure. Voluptate autem in necessitatibus debitis? Ducimus rerum illo ex cupiditate recusandae tempora temporibus blanditiis maxime voluptatum quos, dolore nostrum in error, vel perferendis sint. Excepturi obcaecati voluptatem officia enim ab beatae recusandae maiores voluptate quod dolorem dolor molestias assumenda dignissimos, omnis, minima dicta consequatur nesciunt ad accusantium iure quo laborum facere nostrum. Quas voluptates repellat excepturi maiores maxime. Ad odio porro corporis expedita quae est fugit id veniam non in adipisci reprehenderit a dolor dolorem, facilis natus tempora possimus, aliquam eaque velit officia impedit. Cum tempore magnam sint nam id eveniet, placeat officia asperiores veniam voluptates nisi maiores cupiditate similique incidunt possimus quaerat esse laboriosam temporibus. Doloribus numquam voluptatibus obcaecati, est architecto eos neque possimus similique nobis corporis aliquam consectetur. Facere.</p>
+                    <article>
+                        <h1>Introdução ao mundo de TI</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius, quaerat rem sunt dolor earum adipisci optio culpa cumque cupiditate error laborum, tempore provident amet, corrupti natus dolorem ea distinctio praesentium in necessitatibus aperiam reiciendis minus consequuntur? Dolorum dolores, cumque esse necessitatibus aperiam, harum fugit sit vel porro, consectetur fugiat ab?</p>
+                    </article>
 
-                    <h1>Por que escolher TI como carreira</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod necessitatibus laboriosam sunt soluta labore cumque quia perspiciatis ut, ab nemo voluptas molestias facere sequi tempore fugit? Porro aperiam totam nisi ipsam cum, assumenda officiis dolorem voluptatem quia ex deserunt accusamus perferendis, vel qui ratione a culpa provident saepe repudiandae beatae ab temporibus? Ullam quis natus mollitia quisquam qui accusantium ipsa blanditiis fuga aliquid? At possimus itaque obcaecati cupiditate totam, recusandae, laboriosam facere earum laborum fuga esse, adipisci alias iure? Magni, explicabo qui. Impedit rerum consectetur cupiditate aliquam dolores amet sed cum, similique earum obcaecati inventore non quos! Reiciendis, assumenda!</p>
+                    <article>
+                        <h1>Por que escolher TI como carreira</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod necessitatibus laboriosam sunt soluta labore cumque quia perspiciatis ut, ab nemo voluptas molestias facere sequi tempore fugit? Porro aperiam totam nisi ipsam cum, assumenda officiis dolorem voluptatem quia ex deserunt accusamus perferendis, vel qui ratione a culpa provident saepe repudiandae beatae ab temporibus?</p>
+                    </article>
 
-                    <h1>Como começar (passo a passo)</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo facilis ut fugit nam odit quis aperiam exercitationem ea repellendus ipsum officia, saepe sed expedita architecto porro tempore quod rem tenetur illo voluptatum pariatur suscipit error dolor. Unde aperiam corrupti tenetur earum explicabo eos voluptatibus, corporis consequatur laboriosam maiores voluptate repudiandae mollitia quisquam esse veniam, eveniet, nobis quibusdam culpa deserunt suscipit odio perspiciatis minima expedita. Accusantium dolores vel, non eum blanditiis reiciendis sunt! Omnis laboriosam accusantium corporis aperiam. Temporibus deserunt totam reiciendis at natus obcaecati! Nesciunt vel minima dicta sint iure modi ea sapiente! Laboriosam modi quae, impedit quod iure voluptatibus.</p>
+                    <article>
+                        <h1>Como começar (passo a passo)</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo facilis ut fugit nam odit quis aperiam exercitationem ea repellendus ipsum officia, saepe sed expedita architecto porro tempore quod rem tenetur illo voluptatum pariatur suscipit error dolor. Unde aperiam corrupti tenetur earum explicabo eos voluptatibus, corporis consequatur laboriosam maiores voluptate repudiandae mollitia quisquam esse veniam.</p>
+                    </article>
 
-                    <h1>Depoimentos de profissionais</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo facilis ut fugit nam odit quis aperiam exercitationem ea repellendus ipsum officia, saepe sed expedita architecto porro tempore quod rem tenetur illo voluptatum pariatur suscipit error dolor. Unde aperiam corrupti tenetur earum explicabo eos voluptatibus, corporis consequatur laboriosam maiores voluptate repudiandae mollitia quisquam esse veniam, eveniet, nobis quibusdam culpa deserunt suscipit odio perspiciatis minima expedita. Accusantium dolores vel, non eum blanditiis reiciendis sunt! Omnis laboriosam accusantium corporis aperiam. Temporibus deserunt totam reiciendis at natus obcaecati! Nesciunt vel minima dicta sint iure modi ea sapiente! Laboriosam modi quae, impedit quod iure voluptatibus.</p>
+                    <article>
+                        <h1>Depoimentos de profissionais</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo facilis ut fugit nam odit quis aperiam exercitationem ea repellendus ipsum officia, saepe sed expedita architecto porro tempore quod rem tenetur illo voluptatum pariatur suscipit error dolor. Unde aperiam corrupti tenetur earum explicabo eos voluptatibus.</p>
+                    </article>
                 </div>
             </section>
         </section>
+        
+        <footer>
+            <p>&copy; 2023 ProjetoGrupo. Todos os direitos reservados. | Contato: info@carreiratech.com</p>
+        </footer>
     </main>
-    <!-- Rodapé -->
-    <footer></footer>
     <script src="index.js"></script>
 </body>
-
 </html>

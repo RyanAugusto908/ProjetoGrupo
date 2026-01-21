@@ -164,20 +164,34 @@
             .grid_perfil { grid-template-columns: 1fr; }
             .menu { flex-direction: column; gap: 15px; }
         }
+        /* Botão Voltar Estilizado */
+        .btn-voltar {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            border: 1px solid #9575cd;
+            transition: 0.3s;
+        }
+
+        .btn-voltar:hover {
+            background-color: #2575fc;
+            border-color: white;
+        }
     </style>
 </head>
 <body>
 
     <header class="menu">
+        <a href="../code/index.html" class="btn-voltar">← Voltar para o Início</a>
         <section class="titulo_icon">
             
             <h2>Perfil Profissional</h2>
         </section>
         <ul class="menu_lista">
-            <li><a href="index2.html">Início</a></li>
-            <li><a href="Roadmap.html">Roadmap</a></li>
-            <li><a href="cursos.html">Cursos</a></li>
-            <li><a href="meu_perfil.html"><b>Meu Perfil</b></a></li>
+            
         </ul>
     </header>
 
